@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Muli';
+    margin: 0; 
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #F47171;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color:#B40000;
+    color: white;
+  
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+  }
+
+ nav a {
+   text-decoration: none;
+   color: inherit;
+ }
+
+ p {
+   font-size: 14px;
+ }
+
+ .logos {
+   height: 50px;
+   width: 50px;
+ }
+  
+  .links {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .name {
+    float: left;
+    padding-left: 10px;
+  }
+  
+  header {
+    padding-top: 200px; 
+    background-color: white;
+    background-image: url(images/lgoos/Mn5tx4.jpg);
+    background-size: cover;
+  }
+
+
+
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .title {
+    background-color: #F47171;
+    
+  }
+  
+  
+  .project {
+    background-color:#FFD3D0;
+    border-bottom: 1px white solid;
+  }
+
+  .projectss{
+      width: 800px;
+      height: 400px;
+      padding: 10px;
+  }
+  
+  .aboutme {
+    background-color:#FFD3D0;
+  }
+
+
+  /* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: lightsalmon ;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+  /*mobile styles: mobile first*/
+  @media only screen and (min-width: 350px) {
+    .projectss{
+      width: 350px;
+      height: 350px;
+    }
+
+    .topnav {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  /*tablet styles*/
+  @media only screen and (min-width: 550px) {
+    .projectss{
+      width: 550px;
+      height: 450px;
+    }
+  }
+  /*desktop styles*/
+  @media only screen and (min-width: 800px) {
+    .projectss{
+      width: 800px;
+      height: 400px;
+    }
+  }
+  
