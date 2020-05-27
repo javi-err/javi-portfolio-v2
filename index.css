@@ -120,15 +120,20 @@ a:active {
 }
 
   /*mobile styles: mobile first*/
-  @media only screen and (min-width: 350px) {
+  @media only screen and (min-width: 300px) {
     .projectss{
-      width: 350px;
-      height: 350px;
+      width: 300px;
+      height: 300px;
     }
 
     .topnav {
       display: flex;
-      flex-direction: column;
+      flex-direction: column; 
+    }
+
+    .links {
+      display: flex;
+      flex-direction: inherit;
     }
   }
   /*tablet styles*/
