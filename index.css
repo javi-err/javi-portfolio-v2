@@ -63,7 +63,7 @@
   header {
     padding-top: 200px; 
     background-color: white;
-    background-image: url(images/lgoos/Mn5tx4.jpg);
+    background-image: url(/lgoos/Mn5tx4.jpg);
     background-size: cover;
   }
 
@@ -101,7 +101,8 @@
 
   /* unvisited link */
 a:link {
-  color: white;
+  color: black;
+  
 }
 
 /* visited link */
@@ -116,7 +117,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: white;
+  color: black;
 }
 
   /*mobile styles: mobile first*/
