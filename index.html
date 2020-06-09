@@ -6,16 +6,21 @@
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <nav class="topnav">
         <div class="name"><a href=#top>Javori</a></div>
-            <ul class="links">
+            <ul class="links" id="links">
                 <li><a class="jumper" href="#aboutme">About Me</a></li>
                 <li><a class="jumper" href="#projects">Projects</a></li>
                 <li><a class="social-links" target="_blank" href="https://github.com/javi-err">GitHub</a></li>
                 <li><a class="social-links" target="_blank" href="https://www.linkedin.com/in/javori-smart-919440198">LinkedIn</a></li>
             </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
     </nav>
     <main>
         
@@ -23,8 +28,8 @@
         
         
 
-        
-        <section class="about-me title" id="aboutme">
+        <a id="aboutme"></a>
+        <section class="about-me title">
           <h2>About Me</h2>
         </section>  
 
@@ -45,8 +50,8 @@
            </p>
         </section>
 
-        <section class="projects title">
         <a id ="projects"></a>
+        <section class="projects title">
             <h2>Projects</h2>
         </section>  
 
