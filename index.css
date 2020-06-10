@@ -23,7 +23,7 @@
   nav,
   footer {
     padding: 1% 0;
-    background-color:#B40000;
+    background-color:#f47171;
     color: black;
   
   }
@@ -48,6 +48,7 @@
  .logos {
    height: 50px;
    width: 50px;
+   object-fit: contain;
  }
   
   .links {
@@ -125,7 +126,7 @@ a:active {
 }
 
   /*mobile styles: mobile first*/
-  @media only screen and (min-width: 300px) and (max-width: 400px) {
+  @media only screen and (min-width: 300px) and (max-width: 550px) {
       .topnav {
         overflow: hidden;
       }
